@@ -24,7 +24,7 @@ async def get_full_user(event):
         if user.isnumeric():
             user = int(user)
         if not user:
-            await event.edit("`Gabisa Tolol, Tanpa ID`")
+            await event.edit("`Anj id nya mana dodol`")
             return
         if event.message.entities is not None:
             probable_user_mention_entity = event.message.entities[0]
@@ -36,7 +36,7 @@ async def get_full_user(event):
         try:
             user_obj = await event.client.get_entity(user)
         except Exception as err:
-            return await event.edit("`Wahh Ngebug Anjing... Mohon Lapor Ke Koala` @mixiologist", str(err))
+            return await event.edit("`Koala.. ngebug eh gimana ni` @mixiologist", str(err))
     return user_obj, extra
 
 
@@ -89,9 +89,9 @@ async def gben(userbot):
     if not sender.id == me.id:
         dark = await dc.reply("`Kamu Harus Di Global Banned, Karena Kamu Jamet!`")
     else:
-        dark = await dc.edit("`➢ Global Banned Jamet Segera Di Proses`")
+        dark = await dc.edit("`➢ Global Banned Mode 9`")
     me = await userbot.client.get_me()
-    await dark.edit(f"`➢ Terdeteksi Jamet, Rasakan Dibanned Secara Global Karena Elu Jamet Kontol`")
+    await dark.edit(f"`➢ Terdeteksi Jamet, Rasakan Dibanned Secara Global Karena Elu Jamet Kontol.. kenapa harus kontol semua`")
     my_mention = "[{}](tg://user?id={})".format(me.first_name, me.id)
     f"@{me.username}" if me.username else my_mention
     await userbot.get_chat()
