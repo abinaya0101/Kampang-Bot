@@ -24,9 +24,9 @@ from userbot.events import register
 
 # ========================= CONSTANTS ============================
 AFKSTR = [
-    f"**`! 𝗔𝗙𝗞 🐨\n Sedang Sibuk, Tunggu {ALIVE_NAME} Online Kembali`**",
-    f"**`! 𝗔𝗙𝗞 🐨\n Mohon Maaf {ALIVE_NAME} Sedang Sibuk\n Sedang Menjalankan Perintah Tuhan!!**",
-    f"**`! 𝗔𝗙𝗞 🐨\n {ALIVE_NAME} Sedang Melakukan Perintah Tuhan\n Tunggu {ALIVE_NAME} Online Kembali !!!!!`**",
+    f"**`! 𝗔𝗙𝗞 🐨\n Sedang Sibuk, Tunggu {ALIVE_NAME} Punya kuota`**",
+    f"**`! 𝗔𝗙𝗞 🐨\n Mohon Maaf {ALIVE_NAME} Sedang Sibuk\n Sedang mencari dana buat beli kuota!!**",
+    f"**`! 𝗔𝗙𝗞 🐨\n {ALIVE_NAME} Sedang Melakukan Perintah Tuhan\n Tunggu {ALIVE_NAME} Yee dah aktif !!!!!`**",
     f"**`! 𝗔𝗙𝗞 🐨\n Maaf {ALIVE_NAME} Sedang Sibuk!!`**",
 ]
 
