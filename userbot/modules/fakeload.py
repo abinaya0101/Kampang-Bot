@@ -6,7 +6,7 @@ from userbot.events import register
 @register(outgoing=True, pattern=r'^\.kill(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("`Mau Gue Santet Lu Broo?..`")
+    await typew.edit("`Santet mode on, lock mode on, launch?..`")
     sleep(4)
     await typew.edit("0%")
     number = 1
@@ -309,7 +309,7 @@ async def typewriter(typew):
     sleep(0.03)
     await typew.edit(str(number) + "%   ████████████████▌")
     sleep(1)
-    await typew.edit("Tapi Boong......:v")
+    await typew.edit("Tapi Boong pal pale papale......:v")
     # I did it for two hours :D just ctrl+c - crtl+v
 
 
