@@ -49,10 +49,10 @@ async def pingme(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**✲ 𝙺𝙾𝙽𝚃𝙾𝙻 𝙼𝙴𝙻𝙴𝙳𝚄𝙶** "
-                    f"\n ⫸ ᴷᵒⁿᵗᵒˡ `%sms` \n"
+                    f"\n ⫸ Pala ᴷᵒⁿᵗᵒˡ `%sms` \n"
                     f"**✲ 𝙱𝙸𝙹𝙸 𝙿𝙴𝙻𝙴𝚁** "
 
-                    f"\n ⫸ ᴷᵃᵐᵖᵃⁿᵍ『`{ALIVE_NAME}`』 \n" % (duration))
+                    f"\n ⫸ Ano <3 ᴷᵃᵐᵖᵃⁿᵍ『`{ALIVE_NAME}`』 \n" % (duration))
 
 
 @register(outgoing=True, pattern='^kntl(?: |$)(.*)')
